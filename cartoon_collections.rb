@@ -11,7 +11,7 @@ end
 def long_planeteer_calls(short_words)
   short_words.collect { |call| call.length > 4}
   i=0 
-  while i < short_words.length
+  while i < short_words.length-1
     return true if short_words[i]
   end
   return false 
